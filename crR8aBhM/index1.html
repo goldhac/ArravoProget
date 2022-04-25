@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<meta charset="UTF-8">
+	 <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="top_info"> <a href="" class="FL_top"> Login </a>
+		<a href="" class="FL_top"> About Us</a>
+			<a href="" class="FL_top"> Contact </a></div>
+	
+
+
+	<div class="container"> 
+		 
+	      	
+			  <img src="images/logo 2.png" class="arravo logo" id="loginlogo" title="logo">
+			  
+		<form class="login_form"  name="form" method="post" action="home.html"  autocomplete="off">
+			
+			
+			
+			<div><img src="images/userpic.png" class="input_images" title="userpic">
+
+				<input autocomplete="off" type="text" id="email" placeholder="Email or Phone" class="input" autofocus="off">
+			</div>
+			
+			<div id="email_error">Please fill up your Email or Phone</div>
+			
+			
+			
+			<div><img src="images/passwordpic.png" class="input_images" title="password pic"> <input type="password" id="password" placeholder="Password" class="input" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"  autocomplete="off" autofocus="off"></div>
+			
+			<div id="pass_error">Please fill up your Password</div> 
+			
+			<div id="message">
+			
+  <h3>Password must contain the following:</h3>
+  <p id="letter" class="invalid">A <b>Lowercase</b> letter</p>
+  <p id="capital" class="invalid">A <b>Capital (Uppercase)</b> letter</p>
+  <p id="number" class="invalid">A <b>Number</b></p>
+  <p id="length" class="invalid">Minimum <b>8 Characters</b></p>
+	
+	
+	
+</div>
+
+			<div class="bottom_part"> 
+			<button type="submit" id="butten">Login</button>
+
+        <div>
+			<a href="" id="Forgot">Forgot Password ? </a>
+
+			<div id="keep"> 
+
+
+				<label class="switch">
+
+
+					<input type="checkbox" id="checkbox" placeholder="scrool">
+					<span class="slider"></span>
+				</label>
+
+
+				 <p id="keep_text">Keep Logged In</p> 
+
+				</div>
+		</div>
+
+
+       <b> <div id="last_line">   <a href="" class="help" id="create_account">CREATE ACCOUNT</a>                               <a href="" class="help" id="need_help">NEED  HELP?</a></div></b>
+
+       </div>
+             </form>
+			
+	</div>
+					<div id="Left_info"> <a href="" class="FL"> About Us </a>
+		<a href="" class="FL"> Privacy Policy</a>
+			<a href="" class="FL"> Terms Of Use</a></div>
+
+			<div id="Right_Info">  ©️ 2022 Key. All Rights Reserved | Design By Nwobu
+
+
+			 </div>
+
+
+
+
+
+			
+	<script src="index.js"></script>
+	<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBqPkwSyXCvh5UK67N8cgiSseiAQr-hogs",
+    authDomain: "arravo-login.firebaseapp.com",
+    projectId: "arravo-login",
+    storageBucket: "arravo-login.appspot.com",
+    messagingSenderId: "699022145991",
+    appId: "1:699022145991:web:6e757438b4e381f93201e2"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+
+  import{
+  	getDatabase,ref,set,child,get,update,remove}
+  	from "https://www.gstatic.com/firebasejs/9.63/firebase-database.js"
+
+</script>
+	
+</body>
+
+		
+	                                                                                
+</html>
