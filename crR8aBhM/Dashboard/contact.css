@@ -1,0 +1,116 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        background-color: #E7EBEE;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    #top-bar {
+        position: absolute;
+        height: 10%;
+        width: 100%;
+        background-color: whitesmoke;
+        border-bottom: 1px solid grey;
+    }
+    
+    #right-side {
+        margin-left: 75%;
+        top: 1%;
+    }
+    
+    #logo {
+        position: relative;
+        top: 38%;
+        left: 10.6%;
+        width: 140px;
+        height: 40px;
+    }
+    
+    #search-icon {
+        position: relative;
+        width: 22px;
+        height: 20px;
+    }
+    
+    #search {
+        top: 300px;
+        width: 100px;
+        border: none;
+        background-color: whitesmoke;
+    }
+    
+    #bell-icon {
+        position: relative;
+        width: 22px;
+        height: 20px;
+    }
+    
+    #user-dropdown {
+        position: relative;
+        width: 40px;
+        height: 30px;
+        top: -40px;
+        left: 45%;
+        border-radius: 80%;
+        border: none;
+        background: #E7EBEE url(images/Avatar.png) no-repeat 10px center;
+    }
+    
+    ;
+    #nav-real {
+        position: relative;
+        height: 3px;
+        width: 23px;
+        background-color: red;
+        top: 50%;
+    }
+    
+    .navbar {
+        height: 70px;
+        position: relative;
+        top: 56px;
+        border-top: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 25px;
+    }
+    
+    .nav-item {
+        margin-left: 50px;
+    }
+    
+    #thrid_bar {
+        position: relative;
+        height: 50px;
+        width: 100%;
+        align-content: stretch;
+    }
+    
+    #project_text {
+        font-size: 28px;
+        left: 180px;
+    }
+    
+    #project_value {
+        position: relative;
+        top: -32px;
+        left: 310px;
+        font-size: larger;
+    }
+    
+    #dropdown1 {
+        position: relative;
+        left: 450px;
+        top: -85px;
+    }
