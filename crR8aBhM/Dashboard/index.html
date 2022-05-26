@@ -73,7 +73,7 @@
         <h1 id="project_value">20<a> Total</a></h1>
 
         <div class="dropdown mt-3">
-            <button class="btn btn-light dropdown-toggle bg-light bg-opacity-10 " type="button" id="dropdown1" data-bs-toggle="dropdown" style="border: none;"><i class="bi bi-filter" style="font-size : 30px;"></i></button>
+            <button class="btn btn-light dropdown-toggle bg-light bg-opacity-10 " type="button" id="dropdown1" data-bs-toggle="dropdown" style="border: none;">Sort by</button>
             <ul class="dropdown-menu" aria-labelledby="user-dropdown">
                 <li><a href="#" class="dropdown-item">Priority</a></li>
                 <li><a href="#" class="dropdown-item">Expiry</a></li>
@@ -81,7 +81,38 @@
 
         </div>
 
+        <button class="btn btn-light dropdown-toggle bg-light " type="button" id="filterdropdown" data-bs-toggle="dropdown" style="font-size: 20px;">Filter  <i class="bi bi-filter" style="font-size: 20px ;"></i></button>
+        <ul class="dropdown-menu" aria-labelledby="user-dropdown">
+            <li><a href="#" class="dropdown-item">Priority</a></li>
+            <li><a href="#" class="dropdown-item">Expiry</a></li>
+        </ul>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal" id="addProject"><i class="bi bi-plus-lg"></i> Add project</button>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"> Add a new project</h5>
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div>
+                                <label class="form-label">Project name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div>
+                                <label class="form-label">Customers name</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
     </div>
 
 
